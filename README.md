@@ -1,28 +1,30 @@
 # Latihan Soal Algoritma & Struktur Data (Edisi Lengkap)
 
-Repositori berisi **latihan soal + pembahasan** untuk persiapan **UAS** mata kuliah Algoritma & Struktur Data (PTIK).
+Repositori berisi **latihan soal + pembahasan** dan **kuis pilihan ganda interaktif** untuk persiapan **UAS** mata kuliah Algoritma & Struktur Data (PTIK).
 
 ## Isi
-- [`latihan-soal-asd.md`](./latihan-soal-asd.md) — soal bertahap (Mudah/Sedang/Sulit) lengkap dengan pembahasan, **12 topik**.
-- [`index.html`](./index.html) — versi web yang otomatis menampilkan isi `latihan-soal-asd.md` (selalu sinkron).
+- [`quiz.html`](./quiz.html) — **Kuis pilihan ganda interaktif** (pilih topik, feedback langsung, pembahasan, skor, ringkasan per level). Satu file, siap GitHub Pages.
+- [`latihan-soal-asd.md`](./latihan-soal-asd.md) — soal uraian bertahap (Mudah/Sedang/Sulit) + pembahasan, 12 topik.
+- [`index.html`](./index.html) — versi web yang menampilkan isi `latihan-soal-asd.md`.
 
 ## 12 Topik
-1. Analisis Kompleksitas & Notasi Asimptotik (Big-O, Master Theorem, amortized)
-2. Rekursi & Divide and Conquer
-3. Array, Matriks & String
-4. Stack & Queue
-5. Linked List
-6. Tree & Binary Search Tree (BST)
-7. Heap & Priority Queue
-8. Hashing (Hash Table)
-9. Sorting (Lanjutan)
-10. Searching (Lanjutan)
+1. Big-O Notation (kompleksitas, Master Theorem, amortized)
+2. Array
+3. Stack & Queue
+4. Linked List
+5. Sorting
+6. Searching
+7. Rekursi & Divide-Conquer
+8. Tree & BST
+9. Heap
+10. Hashing
 11. Graph (BFS & DFS)
-12. Soal Campuran (HOTS)
+12. Soal HOTS (analisis kasus)
 
-## Lihat sebagai web
-- Tanpa setup (instan): https://htmlpreview.github.io/?https://github.com/ariftronics/latihan-soal-asd/blob/main/index.html
-- Via GitHub Pages (aktifkan di Settings > Pages, branch `main`): https://ariftronics.github.io/latihan-soal-asd/
+## Buka di browser
+- Kuis interaktif (instan): https://htmlpreview.github.io/?https://github.com/ariftronics/latihan-soal-asd/blob/main/quiz.html
+- Soal uraian (instan): https://htmlpreview.github.io/?https://github.com/ariftronics/latihan-soal-asd/blob/main/index.html
+- Via GitHub Pages (aktifkan di Settings > Pages, branch `main`): https://ariftronics.github.io/latihan-soal-asd/quiz.html
 
-## Cara pakai
-Kerjakan tiap soal lebih dulu, lalu buka bagian **Pembahasan** (toggle) untuk mencocokkan jawaban.
+## Cara pakai kuis
+Pilih topik (atau Semua Topik) > jawab tiap soal > lihat benar/salah + pembahasan langsung > tombol Soal Selanjutnya > ringkasan skor & breakdown per level di akhir.
